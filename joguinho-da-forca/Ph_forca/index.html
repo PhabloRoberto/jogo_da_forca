@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Joguinho da forca</title>
+</head>
+<body>
+    <h1>Jogo da forca</h1>
+
+    <!--começo-->
+    <img id="imagem" src="imagem/img0.png" >
+    <div id="exibir_palavra"></div>
+    <input type="text" name="" id="entrada_letra" placeholder="Escolha uma letra" maxlength="1">
+    <button id="btn_chutar" onclick="chutarLetra()">Chutar</button>
+    
+    <!--baixo-->
+    <h2>Letras escolhidas até agora</h2>
+    <div id="letras_chutadas"></div>
+    <div id="mensagem">Você venceu</div><br>
+    <button id="reiniciar" onclick="iniciar()">Reiniciar</button>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
